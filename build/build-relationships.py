@@ -67,6 +67,10 @@ SOURCES = {
         "nodes": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-json/master/src/node-types.json",
         "grammar": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-json/master/src/grammar.json",
     },
+    "nix": {
+        "nodes": "https://raw.githubusercontent.com/nix-community/tree-sitter-nix/master/src/node-types.json",
+        "grammar": "https://raw.githubusercontent.com/nix-community/tree-sitter-nix/master/src/grammar.json",
+    },
 }
 
 DEFAULT_FIELD_NAME = "*unnamed*"
