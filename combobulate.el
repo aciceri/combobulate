@@ -239,6 +239,7 @@ have changed."
 (require 'combobulate-css)
 (require 'combobulate-yaml)
 (require 'combobulate-json)
+(require 'combobulate-nix)
 ;;; end language support
 
 (provide 'combobulate)

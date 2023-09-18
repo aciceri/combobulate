@@ -444,7 +444,8 @@ be any number of nodes.")
     (css . combobulate-css-setup)
     (yaml . combobulate-yaml-setup)
     ;; note: private mode; not yet released.
-    (html . combobulate-html-setup))
+    (html . combobulate-html-setup)
+    (nix . combobulate-nix-setup))
   "Alist of setup functions to call when \\[combobulate-mode] is enabled.
 
 Because tree-sitter-enabled modes are different from the ordinary
